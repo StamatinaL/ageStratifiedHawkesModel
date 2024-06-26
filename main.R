@@ -1,8 +1,6 @@
 rm(list=ls())
 require(Rcpp)
 set.seed(100)
-#library(qbld)
-#library(R.utils)
 sourceCpp("SMCFunctions.cpp")
 source("MH_functions.R")
 
@@ -55,22 +53,10 @@ cg=8.8*dg
 cg/dg
 sqrt(cg/(dg^2))
 
-# denObs<-density(rgamma(1000000,shape=cg,rate=dg))
-# ind<-which(denObs$y==max(denObs$y))
-# denObs$x[ind]
-# plot(density(rgamma(10000,shape=cg,rate=dg)))
-
 
 age_vec=seq(0,1,1)
 age_vec
 num_intervals=Tend
-
-# library(ggplot2)
-# df=data.frame(x=1:17,y=Y[,1])
-# ggplot(df,aes(x = x, y = y))+theme_bw()+xlab("")+ylab("") + 
-#   theme(text = element_text(size=30)) +
-#   geom_line(col='red') +
-#   geom_line(aes(x=(1:(num_intervals)),y=Y[,2]),color='blue')
 
 
 
