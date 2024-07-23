@@ -1,7 +1,7 @@
 # Stratified epidemic model using a latent marked Hawkes process
 
 ## Reference
-Stamatina Lamprinakou, Axel Gandy Age-stratified epidemic model using a latent marked Hawkes process, https://arxiv.org/pdf/2208.09555
+Stamatina Lamprinakou, Axel Gandy Age-stratified epidemic model using a latent marked Hawkes process, https://doi.org/10.1016/j.mbs.2024.109260. 
 
 ## Files
 - Data_Scenario6.RData: The data set for the scenario of two age groups presented in Subsection 4.1. 
